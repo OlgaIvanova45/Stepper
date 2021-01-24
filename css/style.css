@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: block;
+	width: 920px;
+	margin: 100px auto;
+
+}
+
+.steps {
+	display: inline-flex;
+	height: 60px;
+}
+
+.step1 {
+	color: #ffffff;
+	font-size: 22px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 3px;
+	width: 310px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	vertical-align: middle;
+	background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+	
+}
+
+	
+.step1:after {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 30px solid white; 
+	border-left: 10px solid transparent;
+	border-bottom: 30px solid white; 
+	border-left: 10px solid transparent;
+	top: 100px;
+	left: 604px;
+	right: 20px;
+	bottom: 10px;
+}
+
+.step2:after {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 30px solid white; 
+	border-left: 10px solid transparent;
+	border-bottom: 30px solid white; 
+	border-left: 10px solid transparent;
+	top: 100px;
+	left: 914px;
+}
+
+
+.step2 {
+	
+	color: #ffffff;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+	font-size: 22px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 3px;
+	width: 310px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: linear-gradient(180deg, #2EA239 0%, #62FD71 50.52%, #2EA139 100%);
+
+}
+
+.step2:before {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 10px solid white;
+	border-bottom: 30px solid transparent;
+	top: 100px;
+	left: 614px;
+}
+
+.step3 {
+	color: #ffffff;
+	font-size: 22px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 3px;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+	
+}
+
+.step3:before {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 10px solid white;
+	border-bottom: 30px solid transparent;
+	top: 100px;
+	left: 924px;
+}
+
